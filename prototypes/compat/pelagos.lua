@@ -11,6 +11,13 @@ if mods["pelagos"] and settings.startup["frozen-goodies-and-more-compat-pelagos"
   }
 
   frozen_goodies.create_frozen_goodie {
+    name = "fermented-fish",
+    icons = khaoslib_item.get_icons("fermented-fish"),
+    unlock = "fermentation-bacteria-cultivation-technology",
+    default_import_location = "pelagos",
+  }
+
+  frozen_goodies.create_frozen_goodie {
     name = "coconut-meat",
     icons = khaoslib_capsule.get_icons("coconut-meat"),
     unlock = "coconut-processing-technology",
