@@ -15,6 +15,8 @@
     "frozen-goodies >= 0.0.1",
     "frozen-goodies-lib >= 1.0.0",
 
+    "? boompuff-agriculture >= 1.1.0",
+
     "! FrozenFood",
     "! frozen-food-and-more",
     "! spoilage-solution",
