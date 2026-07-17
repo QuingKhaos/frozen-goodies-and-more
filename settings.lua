@@ -9,3 +9,13 @@ if mods["boompuff-agriculture"] then
     order = "a[compat]-a[boompuff-agriculture]",
   } :commit()
 end
+
+if mods["fluroflux"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "frozen-goodies-and-more-compat-fluroflux",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[compat]-a[fluroflux]",
+  } :commit()
+end

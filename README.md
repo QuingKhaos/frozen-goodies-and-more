@@ -13,6 +13,7 @@ If you don't like the support for a given mod or a tweak, most can be disabled i
 ## Compatible mods
 
 - [Boompuff Agriculture](https://mods.factorio.com/mod/boompuff-agriculture)
+- [Fluroflux: Stingfrond Agriculture](https://mods.factorio.com/mod/fluroflux)
 
 If you want to see another mod supported, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.

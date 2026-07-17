@@ -16,6 +16,7 @@
     "frozen-goodies-lib >= 1.0.0",
 
     "? boompuff-agriculture >= 1.1.0",
+    "? fluroflux >= 1.0.2",
 
     "! FrozenFood",
     "! frozen-food-and-more",
