@@ -40,6 +40,17 @@ if mods["fulgora-coralmium-agriculture"] then
   } :commit()
 end
 
+if mods["lignumis"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "frozen-goodies-and-more-advanced-compat-lignumis-freeze-cupriavidus-necator",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[advanced]-b[compat]-a[lignumis]-a[freeze-cupriavidus-necator]",
+    hidden = mods["khaos-advanced-settings"] == nil
+  } :commit()
+end
+
 if mods["pelagos"] then
   khaoslib_setting:load {
     type = "bool-setting",
