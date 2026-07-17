@@ -7,7 +7,7 @@
         "moduleMap": [
             {
                 "pattern": "^(.*)$",
-                "replace": "__###NAME###__.$1"
+                "replace": "__frozen-goodies-and-more__.$1"
             }
         ]
     }
