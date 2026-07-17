@@ -5,3 +5,4 @@ Date: 2026-07-17
     - Add support for Boompuff Agriculture.
     - Add support for Fluroflux: Stingfrond Agriculture.
     - Add support for Wooden Aquilo: Seabloom Algaculture.
+    - Add support for Wooden Fulgora: Coralmium Agriculture.

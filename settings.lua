@@ -29,3 +29,13 @@ if mods["fluroflux"] then
     order = "a[compat]-a[fluroflux]",
   } :commit()
 end
+
+if mods["fulgora-coralmium-agriculture"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "frozen-goodies-and-more-compat-fulgora-coralmium-agriculture",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[compat]-b[fulgora-coralmium-agriculture]",
+  } :commit()
+end
