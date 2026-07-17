@@ -60,3 +60,11 @@ if mods["pelagos"] then
     order = "a[compat]-a[pelagos]",
   } :commit()
 end
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "frozen-goodies-and-more-tweaks-hide-frozen-goodies",
+  setting_type = "startup",
+  default_value = true,
+  order = "a[tweaks]-a[hide-frozen-goodies]",
+} :commit()
