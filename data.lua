@@ -2,3 +2,4 @@ require("__frozen-goodies-and-more__.prototypes.compat.aquilo-seabloom-algacultu
 require("__frozen-goodies-and-more__.prototypes.compat.boompuff-agriculture")
 require("__frozen-goodies-and-more__.prototypes.compat.fluroflux")
 require("__frozen-goodies-and-more__.prototypes.compat.fulgora-coralmium-agriculture")
+require("__frozen-goodies-and-more__.prototypes.compat.pelagos")

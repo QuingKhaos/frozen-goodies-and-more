@@ -19,6 +19,7 @@
     "? boompuff-agriculture >= 1.1.0",
     "? fluroflux >= 1.0.2",
     "? fulgora-coralmium-agriculture >= 1.2.7",
+    "? pelagos >= 0.59.0",
 
     "! FrozenFood",
     "! frozen-food-and-more",

@@ -39,3 +39,13 @@ if mods["fulgora-coralmium-agriculture"] then
     order = "a[compat]-b[fulgora-coralmium-agriculture]",
   } :commit()
 end
+
+if mods["pelagos"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "frozen-goodies-and-more-compat-pelagos",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[compat]-a[pelagos]",
+  } :commit()
+end
