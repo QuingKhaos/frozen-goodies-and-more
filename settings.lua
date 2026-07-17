@@ -61,6 +61,17 @@ if mods["pelagos"] then
   } :commit()
 end
 
+if mods["bioprocessing-tab"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "frozen-goodies-and-more-advanced-tweaks-bioprocessing-tab",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[advanced]-a[tweaks]-a[bioprocessing-tab]",
+    hidden = mods["khaos-advanced-settings"] == nil
+  } :commit()
+end
+
 khaoslib_setting:load {
   type = "bool-setting",
   name = "frozen-goodies-and-more-tweaks-hide-frozen-goodies",

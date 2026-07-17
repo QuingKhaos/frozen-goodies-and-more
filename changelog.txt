@@ -3,6 +3,7 @@ Version: 1.0.0
 Date: 2026-07-17
   Features:
     - Puts vanilla frozen goodies at the proper place in the tech tree.
+    - Move frozen goodies and their recipes to bioprocessing tab if installed (advanced, configurable).
     - Hide frozen goodies and their recipes, like vanilla barreling is hidden (configurable).
   Compatibility:
     - Add support for Boompuff Agriculture.
