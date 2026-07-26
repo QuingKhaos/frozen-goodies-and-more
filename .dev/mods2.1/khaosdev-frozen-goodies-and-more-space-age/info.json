@@ -1,0 +1,38 @@
+{
+  "name": "khaosdev-frozen-goodies-and-more-space-age",
+  "title": "// DEV // Frozen Goodies and More // Space Age //",
+  "description": "",
+  "author": "QuingKhaos",
+  "homepage": "https://discord.gg/SYmkaDjFCt",
+  "version": "0.0.0",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base",
+    "elevated-rails",
+    "quality",
+    "recycler",
+    "space-age",
+
+    "khaosdev",
+    "ghost-logistics",
+    "remove-animations",
+
+    "barrel-stages",
+    "barreling-group2",
+    "khaos-advanced-settings",
+    "khaosammogroup",
+    "khaosbioprocessinggroup",
+    "? khaoscastinggroup",
+    "khaoscircuitrygroup",
+    "khaosmodulesgroup",
+    "khaostransportgroup",
+    "science-tab",
+
+    "frozen-goodies-and-more",
+
+    "boompuff-agriculture",
+    "fluroflux",
+    "lignumis"
+  ],
+  "expansion_required": true
+}

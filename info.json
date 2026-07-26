@@ -31,6 +31,9 @@
   "spoiling_required": true,
   "package": {
     "ignore": [
+      "mod_info.yml",
+      "**/*.md",
+      "**/*.svg",
       "**/*.xcf"
     ]
   }
