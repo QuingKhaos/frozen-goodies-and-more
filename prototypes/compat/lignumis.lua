@@ -1,5 +1,4 @@
 local frozen_goodies = require("__frozen-goodies-lib__.lib")
-local khaoslib_capsule = require("__khaoslib__.prototypes.capsule")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 
 if mods["lignumis"] then
